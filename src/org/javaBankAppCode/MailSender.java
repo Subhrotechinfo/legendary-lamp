@@ -39,8 +39,6 @@ public class MailSender {
 		
 		String sender=to;
 		String from=adminEmail;
-		//final String username="royalbankofindia.alert";
-		//final String password="hahahagotyou@123";
 		
 		String host="smtp.gmail.com";
 		Properties props=new Properties();
