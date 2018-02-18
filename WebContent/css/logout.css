@@ -1,0 +1,32 @@
+.body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+.navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 0.80 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+	  background-color:white;
+  }
+.logo {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #1abc9c;
+	  
+}
+  
+.container{
+		
+		height:350px;
+      padding: 100px 120px 60px 120px;
+}
+
+.bg-1{ 
+      background-color: #f2f2f2; 
+}

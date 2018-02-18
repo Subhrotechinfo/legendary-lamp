@@ -1,0 +1,50 @@
+.body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+.bg-1 ,.bg-3{ 
+      background-color: #ffffff; 
+      
+  }
+.bg-2 { 
+      background-color: #f2f2f2;	
+      
+  }
+
+.navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 0.80 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+	  background-color:white;
+  }
+  .navbar-nav li a:hover{
+      color: #1abc9c !important;
+      background-color: #fff !important;
+  }
+  
+  .container{
+		
+		height:450px;
+      padding: 100px 120px 60px 120px;
+  }
+  
+  .control-label{
+	color:#808080;
+	font-family: Montserrat, sans-serif;
+}
+ .logo {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #1abc9c;
+	  
+}
+.checkbox {
+		
+		font-size:13px;
+}

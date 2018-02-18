@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>onlineBankingApplicationModule</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <resource-ref>
+  				<description>DB Connection</description>
+  				<res-ref-name>jdbc/bankappdb</res-ref-name>
+  				<res-type>javax.sql.DataSource</res-type>	
+  				<res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <servlet>
+  			<description>LoginPage</description>
+  			<servlet-name>Login</servlet-name>
+  			<servlet-class>org.javaBankAppCode.LoginValidation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  			
+  			<servlet-name>Login</servlet-name>
+  			<url-pattern>/loginuser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<description>New User</description>
+  			<servlet-name>NewUser</servlet-name>
+  			<servlet-class>org.javaBankAppCode.NewUserRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  			
+  			<servlet-name>NewUser</servlet-name>
+  			<url-pattern>/userregistration</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  			<description>Dashboard Management</description>
+  			<servlet-name>Dashboard </servlet-name>
+  			<servlet-class>org.javaBankAppCode.DashboardData</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Dashboard </servlet-name>
+  			<url-pattern>/tabledata</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<description>Withdraw Management</description>
+  			<servlet-name>Withdraw</servlet-name>
+  			<servlet-class>org.javaBankAppCode.WithdrawMoney</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Withdraw</servlet-name>
+  			<url-pattern>/withdraw</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<description>Transfer Management</description>
+  			<servlet-name>Transfer</servlet-name>
+  			<servlet-class> org.javaBankAppCode.TransferMoney</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Transfer</servlet-name>
+  			<url-pattern>/transfer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<description>Deposit Management</description>
+  			<servlet-name>Deposit</servlet-name>
+  			<servlet-class>org.javaBankAppCode.Deposit</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Deposit</servlet-name>
+  			<url-pattern>/deposit</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  			<description>Forget Password</description>
+  			<servlet-name>Forget</servlet-name>
+  			<servlet-class>org.javaBankAppCode.ForgetUpdater</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Forget</servlet-name>
+  			<url-pattern>/forget</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  			<description>LogoutManagement</description>
+  			<servlet-name>Logout</servlet-name>
+  			<servlet-class>org.javaBankAppCode.Logout</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  			<servlet-name>Logout</servlet-name>
+  			<url-pattern>/logoutpage</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+</web-app>
