@@ -13,7 +13,7 @@
 - Clone the repo into your local machine.
 - Import as Dynamic Web Project in Eclipse v Mars2.
 - Built the project.
-- Install a server Aparche Tomcat v8.X.
+- Install a server Apache Tomcat v8.X.
 - Run the Application.
  
 
