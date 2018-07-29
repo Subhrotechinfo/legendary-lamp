@@ -10,7 +10,7 @@ public class FileCreation {
 				//adding data to the properties file
 				/*Properties prop = new Properties();
 				prop.setProperty("adminemail", "royalbankofindia.alert@gmail.com");
-				prop.setProperty("password", "hahahagotyou@123");
+				prop.setProperty("password", "*********");
 				
 				try{
 					//setting the file location
